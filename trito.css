@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    overflow-x: hidden;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(43, 43, 74);
+    font-size: 18px;
+}
+.navbar{
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(https://itemsstore.net/html/trito/img/hero/1.jpg);
+    align-items: center;
+    border: 2px solid black;
+}
+.navbar ul li{
+    padding: 30px;
+}
+#downloadcv a{
+    background-color: rgb(43, 43, 74);
+    color: white;
+    padding: 5px,10px,5px,10px;
+    border-radius: 30% 30%/80px 80px;
+}
+#downloadcv a:hover{
+    color:rgb(43, 43, 74);
+    background-color: white;
+    border: 4px solid rgb(43, 43, 74) ;
+}
+/* end of napbar  section */
+/* start of hero section*/
+.hero{
+    background-image:url("https://itemsstore.net/html/trito/img/hero/1.jpg");
+    display:flex;
+    justify-content:space-evenly;
+    /* padding:0px,100px,0px,100px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 175px 100px 0px 100px;
+
+}
+.a ul li{
+    display: block;
+    font-size: 35px;
+}
+.b{
+    position: absolute;
+    top: 600px;
+    right: 20px;
+    background-color:white;
+    padding: 10px;
+    font-size: 25px;
+    justify-content: space-evenly;
+}
+.s{
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#g{
+    background-color:white;
+    color:rgb(43, 43, 74) ;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+#g:hover{
+    color:white;
+    background-color:rgb(43, 43, 74) ;
+    border: 4px solid rgb(43, 43, 74) ;
+}
+.t{
+    font-size: 30px;
+}
+#client{
+    background-color: rgb(43, 43, 74);
+    width: 100%;
+}
+#client tr td{
+    color: white;
+    font-size: 24px;
+}
+/*     dedication     */
+#dedication{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
